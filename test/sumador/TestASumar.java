@@ -16,6 +16,11 @@ class TestASumar {
 	        assertEquals("5 = 5",resultado );
 	    }
 	 
-	 
+	 @Test
+	 public void testCifraNegativa() {
+	        ASumar sumi = new ASumar();
+	        String resultado = sumi.sumativo("-5");
+	        assertEquals("Negativo. Siempre negativo",resultado );
+	    }
 
 }

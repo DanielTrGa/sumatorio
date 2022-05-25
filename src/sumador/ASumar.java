@@ -19,4 +19,22 @@ public class ASumar {
         
 	}
 
+	
+	/**
+	 * @author Daniel
+	 * @version 1.0
+	 * @param cad. Se le pasa el numero que queramos usar
+	 * @return en caso de ser negativo se devuelve un mensaje de texto diciendo "Negativo. Siempre negativo".  Y null si es positivo
+	 *  
+	 */
+	public String negativo(String cad) {
+		String numero = cad;
+		char simbolo = numero.charAt(0);
+		if (simbolo == '-') {
+			return "Negativo. Siempre negativo";
+		}
+		return null;
+
+	}
+
 }
