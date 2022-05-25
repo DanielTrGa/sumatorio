@@ -19,7 +19,7 @@ class TestASumar {
 	 @Test
 	 public void testCifraNegativa() {
 	        ASumar sumi = new ASumar();
-	        String resultado = sumi.sumativo("-5");
+	        String resultado = sumi.negativo("-5");
 	        assertEquals("Negativo. Siempre negativo",resultado );
 	    }
 
