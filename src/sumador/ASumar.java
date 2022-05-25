@@ -37,4 +37,22 @@ public class ASumar {
 
 	}
 
+
+	/**
+	 * 
+	 * @param valor_inicial
+	 * @return
+	 */
+	public int total(String valor_inicial) {
+        int suma = 0;
+
+        for (int i = 0; i < valor_inicial.length(); i++) {
+            // Cadena de un dígito.
+            char digito = valor_inicial.charAt(i);
+            suma = suma + Integer.parseInt(String.valueOf(digito));  //Conversión de caracter a entero
+        }
+        return suma;
+
+    }
+
 }
