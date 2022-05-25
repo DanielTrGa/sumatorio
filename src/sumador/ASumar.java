@@ -39,9 +39,11 @@ public class ASumar {
 
 
 	/**
-	 * 
-	 * @param valor_inicial
-	 * @return
+	 * @author Daniel
+	 * @version 1.0
+	 * @param valor_inicial. Se le pasa el numero que queremos que nos sube sus digitos
+	 * @return devuelve la suma de los digitos del numero introducido
+	 *  
 	 */
 	public int total(String valor_inicial) {
         int suma = 0;
